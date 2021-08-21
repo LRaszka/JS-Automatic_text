@@ -1,0 +1,34 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #e0b6b6;
+    font-family: Lucida Console;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+div {
+    position: absolute;
+    bottom: 10%;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#speed {
+    width: 60px;
+    background-color: rgb(39, 39, 39);
+    color: rgb(182, 182, 182);
+    padding: 5px 10px;
+    font-size: 20px;
+    text-align: center;
+    border-radius: 5px;
+    font-weight: bold;
+    border: none;
+}
